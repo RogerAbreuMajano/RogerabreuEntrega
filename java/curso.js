@@ -33,3 +33,16 @@ let nombre = prompt("ingrese su nombre")
 function ingreso(nombre){
     console.log(`Hola ${nombre}`);
 }
+
+class  Viaje{
+    constructor(lugar,precio){
+        this.lugar = lugar;
+        this.precio = precio;
+    }
+}
+
+const Peru = new Viaje("Peru",200),
+Holanda = new Viaje("Holanda",500),
+Japon = new Viaje("Japon", 800);
+
+console.log(Peru);
